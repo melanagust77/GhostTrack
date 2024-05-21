@@ -80,7 +80,7 @@ def IP_Track():
 @is_option
 def phoneGW():
     User_phone = input(
-        f"\n {Wh}Enter phone number target {Gr}Ex [+6281xxxxxxxxx] {Wh}: {Gr}")  # INPUT NUMBER PHONE
+        f"\n {Wh}Enter phone number target {Gr}Ex [+37533618511] {Wh}: {Gr}")  # INPUT NUMBER PHONE
     default_region = "ID"  # DEFAULT NEGARA INDONESIA
 
     parsed_number = phonenumbers.parse(User_phone, default_region)  # VARIABLE PHONENUMBERS
@@ -270,7 +270,8 @@ def option():
     """)
 
     stderr.writelines(f"\n\n\n{option_text()}")
-
+sudo apt-get install git
+sudo apt-get install python3
 
 def run_banner():
     clear()
@@ -291,7 +292,8 @@ def run_banner():
               `'`'`'`---..,___`;.-'
         """)
     time.sleep(0.5)
-
+pkg install git
+pkg install python3
 
 def main():
     clear()
@@ -304,7 +306,10 @@ def main():
         print(f'\n{Wh}[ {Re}! {Wh}] {Re}Please input number')
         time.sleep(2)
         main()
-
+git clone https://github.com/HunxByts/GhostTrack.git
+cd GhostTrack
+pip3 install -r requirements.txt
+python3 GhostTR.py
 
 if __name__ == '__main__':
     try:
